@@ -43,6 +43,10 @@ const SITE = {
    *  - type: "report-guide" -> an accordion of headings, each opening to
    *    an intro line plus a bullet list. Add/edit sections in the
    *    `sections` array below.
+   *
+   *  - type: "criteria"     -> a marking-criteria table. Edit the `levels`
+   *    (column headings) and `rows` (one per criterion, with one
+   *    descriptor per level) below.
    */
   classroomResources: [
     {
@@ -160,6 +164,88 @@ const SITE = {
             "Has it increased audience agency, or has it increased the control of media platforms and institutions?",
             "How has the shift from traditional media to new media changed the balance of power between audiences, producers and institutions?",
             "Make a final statement about how your chosen technology or trend is likely to continue influencing media and society.",
+          ],
+        },
+      ],
+    },
+    {
+      id: "criteria",
+      type: "criteria",
+      title: "SAC Marking Criteria",
+      description: "How your written report is marked: 8 criteria, each out of 4 (total /32).",
+      total: "/32",
+      levels: ["4 Marks", "3 Marks", "2 Marks", "1 Mark"],
+      rows: [
+        {
+          criterion: "1. Nature & Form of New Media Technology",
+          descriptors: [
+            "Clearly and accurately explains the selected technology or trend, including relevant detail.",
+            "Clearly describes the technology or trend with some detail.",
+            "Gives a basic description with limited detail.",
+            "Provides little or unclear information about the technology.",
+          ],
+        },
+        {
+          criterion: "2. Audience Impact",
+          descriptors: [
+            "Clearly explains how audiences use the technology and how it affects them.",
+            "Explains audience use and some effects.",
+            "Gives basic comments about audience use or impact.",
+            "Makes limited or unclear comments about the audience.",
+          ],
+        },
+        {
+          criterion: "3. Social Change",
+          descriptors: [
+            "Clearly explains specific social, cultural or behavioural changes caused by or connected to the technology.",
+            "Identifies and explains some social or cultural changes.",
+            "Identifies basic social changes with limited explanation.",
+            "Makes simple or unclear statements about social change.",
+          ],
+        },
+        {
+          criterion: "4. Ethical Challenges",
+          descriptors: [
+            "Clearly explains relevant ethical issues and why they are important.",
+            "Identifies and explains relevant ethical issues.",
+            "Identifies an ethical issue with limited explanation.",
+            "Mentions an ethical concern with little or no explanation.",
+          ],
+        },
+        {
+          criterion: "5. Legal Implications",
+          descriptors: [
+            "Clearly explains relevant laws, regulations or legal issues connected to the technology.",
+            "Identifies and explains relevant laws or regulations.",
+            "Mentions relevant laws or rules with limited explanation.",
+            "Makes a basic or unclear reference to legal issues.",
+          ],
+        },
+        {
+          criterion: "6. Industry Impact",
+          descriptors: [
+            "Clearly explains how the technology has changed media industries, production or business models.",
+            "Explains some impacts on media industries.",
+            "Identifies a basic industry impact with limited explanation.",
+            "Makes a simple or unclear reference to industry impact.",
+          ],
+        },
+        {
+          criterion: "7. Use of Evidence",
+          descriptors: [
+            "Uses relevant, accurate and recent examples, case studies or data to strongly support ideas.",
+            "Uses relevant examples or evidence to support most ideas.",
+            "Uses some examples or evidence, but they may be general or not well connected.",
+            "Makes claims with little or no supporting evidence.",
+          ],
+        },
+        {
+          criterion: "8. Communication & Media Language",
+          descriptors: [
+            "Uses relevant media terminology accurately. Ideas are clearly organised, easy to follow, and have very few spelling or grammar errors.",
+            "Uses appropriate media terminology. Ideas are organised and mostly clear, with minor spelling or grammar errors.",
+            "Uses some media terminology. Ideas are sometimes unclear or disorganised, with noticeable errors.",
+            "Uses little or incorrect media terminology. Writing is difficult to follow due to structure, spelling or grammar errors.",
           ],
         },
       ],
