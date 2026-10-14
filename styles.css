@@ -315,12 +315,12 @@ main {
   margin: 0;
 }
 
-/* 9 cards: 6 topics (rows 1-2) then a row of 3 purple resource buttons
-   (Slides, Guide, Criteria) in columns 1-3. Sized so all three rows fit on
-   screen without scrolling. */
+/* 9 cards in a 3 x 3 grid: topics 1-3, topics 4-6, then a row of 3 purple
+   resource buttons (Slides, Guide, Criteria). No gaps, and sized so all
+   three rows fit on screen without scrolling. */
 .topic-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
