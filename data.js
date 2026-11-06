@@ -290,6 +290,27 @@ const SITE = {
           url: "https://www.abc.net.au/listen/programs/abc-news-daily/six-months-in-is-the-social-media-ban-failing/106805068?utm_content=link&utm_medium=content_shared",
         },
         {
+          type: "link",
+          title: "Online Safety Act 2021 (Federal Register of Legislation)",
+          description:
+            "The main Act setting up Australia's online safety framework and the eSafety Commissioner's powers \u2014 the Act the social media minimum age rules were added to.",
+          url: "https://www.legislation.gov.au/C2021A00076/latest/text",
+        },
+        {
+          type: "link",
+          title: "Online Safety Amendment (Social Media Minimum Age) Act 2024 (as made)",
+          description:
+            "The amending Act (No. 127, 2024) as originally passed in December 2024, which introduced the social media minimum age into the Online Safety Act.",
+          url: "https://www.legislation.gov.au/C2024A00127/asmade/text",
+        },
+        {
+          type: "link",
+          title: "Online Safety (Age-Restricted Social Media Platforms) Rules 2025",
+          description:
+            "The legislative instrument made under the Online Safety Act that sets the extra conditions for a service to count as an age-restricted social media platform, and the classes of services that do not.",
+          url: "https://www.legislation.gov.au/F2025L00889/latest/text",
+        },
+        {
           type: "pdf",
           title: "TGA warning: TikTok \u201Cnasal tanning spray\u201D",
           description:
@@ -336,6 +357,27 @@ const SITE = {
           description:
             "Deep-dive research tracking data manipulation, disinformation and international technological risks.",
           url: "https://www.aspi.org.au/",
+        },
+        {
+          type: "link",
+          title: "Psychology Today \u2014 How AI Could Shape Our Relationships and Social Interactions",
+          description:
+            "Marlynn Wei (2025) on how relationships with AI companions may affect emotional dependence, loneliness, social expectations and empathy.",
+          url: "https://www.psychologytoday.com/au/blog/urban-survival/202502/how-ai-could-shape-our-relationships-and-social-interactions",
+        },
+        {
+          type: "link",
+          title: "BBC & EBU \u2014 AI assistants misrepresent news content (2025 study)",
+          description:
+            "International research led by the BBC and coordinated by the European Broadcasting Union, finding that major AI assistants gave answers with significant problems in 45% of news-related responses.",
+          url: "https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content",
+        },
+        {
+          type: "link",
+          title: "Australian Government \u2014 AI and Australian Law",
+          description:
+            "A summary of existing Australian laws that apply to AI harms, including misleading outputs such as deceptive deepfakes, defamation, privacy and online safety.",
+          url: "https://www.ai.gov.au/staying-safe-and-responsible/ai-and-australian-law",
         },
         {
           type: "pdf",
@@ -391,6 +433,20 @@ const SITE = {
           description:
             "Formal guidance and commentary on the psychological impacts of social media and screen use, especially at a young age.",
           url: "https://psychology.org.au/insights/the-impacts-of-social-media-at-a-young-age",
+        },
+        {
+          type: "link",
+          title: "QUT Digital Media Research Centre \u2014 Australian Media Uses Report: Social Media & YouTube 2026",
+          description:
+            "News story on a national survey of 2,020 Australians plus 70 in-depth interviews, showing how private, varied and personalised everyday social media use really is.",
+          url: "https://www.qut.edu.au/news?id=203994",
+        },
+        {
+          type: "link",
+          title: "APS in the media \u2014 Australian teens trapped by social media apps as the \u2018like\u2019 button triggers mental health disorders",
+          description:
+            "Australian Psychological Society coverage (2024) linking the \u2018like\u2019 button, FOMO and problematic use to mental health distress among Australian teens.",
+          url: "https://psychology.org.au/about-us/news-and-media/aps-in-the-media/2024/australian-teens-trapped-by-social-media-apps-as-t",
         },
         {
           type: "pdf",
